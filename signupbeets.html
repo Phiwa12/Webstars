@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp form for Recipe Sharing platform</title>
+
+    <link rel="stylesheet" href="signupbeets.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class = "form-box">
+            <div class="signUp-box form">
+                <div class="SignUp">
+                    <h2>SignUp</h2>
+                    <form action="#">
+
+                        <!-- First name field -->
+                        <div class="input-box">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" placeholder="At least one character">
+                        </div>
+
+                        <!-- Last name field -->
+                        <div class="input-box">
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" placeholder="At least one character">
+                        </div>
+
+                        <!-- Email field -->
+                        <div class="input-box">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email">
+                        </div>
+
+                        <!-- Password field -->
+                        <div class="input-box">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="At least 8 characters">
+                        </div>
+
+                        <!-- Register button -->
+                        <button class="button button1" id="register" >Register</button><br>
+
+                        <!-- Checkbox -->
+                        <input type="checkbox" id="chk" name="chk" value="I agree">
+                        <label for="chk" style = "font-size: 11px;color: #febc8c;"> I agree to Recipe Sharing Platform's terms and conditions</label><br>
+                        <div class="log-in link">
+                            <a href="loginbeets.html" style = "font-size: 11px; color: white; text-decoration: none; font-weight: bold;">Already have an account? Log in</a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- Links to an external JavaScript file-->
+    <script src="signupbeets.js"></script>
+</body>
+
+</html>
