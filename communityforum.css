@@ -1,92 +1,92 @@
 /* General Styles */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* Updated font family */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: black; /* Background color changed to black */
-    color: white; /* Text color changed to white */
+    background-color: black; 
+    color: white; 
 }
 
 h1, h2 {
     text-align: center;
-    color: white; /* Headings color changed to white */
+    color: white; 
 }
 
 /* Search Widget Container */
 #search-section {
-    background-color: black; /* Background remains black */
-    padding: 20px; /* Spacing around the widget */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    max-width: 63.5%; /* Maximum width */
-    margin: 20px auto; /* Center alignment */
+    background-color: black; 
+    padding: 20px; 
+    border-radius: 10px; /
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    max-width: 63.5%; 
+    margin: 20px auto; 
 }
 
 /* Search Widget Heading */
 #search-section h1 {
-    font-size: 24px; /* Larger font size */
-    color: white; /* Changed to white */
-    margin-bottom: 10px; /* Spacing below the heading */
+    font-size: 24px; 
+    color: white; 
+    margin-bottom: 10px; 
 }
 
 /* Search Widget Input Field */
 .search-widget {
-    display: flex; /* Flexbox layout for alignment */
-    justify-content: space-between; /* Space between items */
-    align-items: center; /* Center items vertically */
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
 }
 
 /* Input Field Style */
 #search-bar {
-    flex: 1; /* Take up available space */
-    padding: 10px; /* Padding inside the input */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    margin-right: 10px; /* Space between input and button */
-    transition: border-color 0.3s; /* Smooth border color transition */
-    color: white; /* Text color in the input field */
-    background-color: black; /* Input background color */
+    flex: 1; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-right: 10px; 
+    transition: border-color 0.3s; 
+    color: white; 
+    background-color: black; 
 }
 
 /* Input Field Focus Style */
 #search-bar:focus {
-    outline: none; /* Remove default outline */
-    border-color: #ac4800; /* Change border color on focus */
+    outline: none; 
+    border-color: #ac4800; 
 }
 
 /* Dropdown Menu Style */
 #category {
-    padding: 10px; /* Padding inside the dropdown */
-    border: 1px solid #ccc; /* Light gray border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    margin-right: 10px; /* Space between dropdown and button */
-    color: white; /* Dropdown text color */
-    background-color: black; /* Dropdown background color */
+    padding: 10px; 
+    border: 1px solid #ccc; /
+    border-radius: 5px; 
+    font-size: 16px; 
+    margin-right: 10px; 
+    color: white; 
+    background-color: black; 
 }
 
 /* Button Style */
 button {
-    background-color: #ac4800; /* Primary button color changed to orange */
-    color: white; /* White text color */
-    border: none; /* Remove border */
-    padding: 10px 20px; /* Padding around text */
-    border-radius: 5px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-    transition: background-color 0.3s; /* Smooth background color transition */
+    background-color: #ac4800; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    transition: background-color 0.3s;
 }
 
 /* Button Hover Style */
 button:hover {
-    background-color: #d67900; /* Darker shade on hover */
+    background-color: #d67900; 
 }
 
 section {
     margin: 20px auto;
     padding: 20px;
-    background-color: black; /* Section background changed to black */
+    background-color: black; 
     max-width: 800px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -94,7 +94,7 @@ section {
 
 /* Add Your Story Section */
 #add-story-section {
-    border: 2px solid #ac4800; /* Orange border around the Add Your Story section */
+    border: 2px solid #ac4800; 
 }
 
 /* Featured Discussions Layout */
@@ -108,31 +108,31 @@ section {
 
 /* Discussion Boxes */
 .discussion {
-    background-color: black; /* Dark background for discussion boxes */
+    background-color: black; 
     padding: 15px;
-    border-left: 5px solid #ac4800; /* Orange border on the left */
+    border-left: 5px solid #ac4800; 
 }
 
 .discussion h3 {
     margin: 0;
     font-size: 18px;
-    color: white; /* Discussion title color changed to white */
+    color: white; 
 }
 
 .discussion p {
     font-size: 14px;
-    color: white; /* Discussion content color changed to white */
+    color: white; 
 }
 
 textarea {
-    width: calc(100% - 30px); /* Width slightly increased */
+    width: calc(100% - 30px); 
     padding: 10px;
     margin-top: 10px;
     font-size: 14px;
-    color: white; /* Text color in textarea */
-    background-color: black; /* Background color of textarea */
-    border: 2px solid white; /* Increased thickness and set color to orange */
-    margin-right: 10px; /* Move the textarea back a little */
+    color: white; 
+    background-color: black; 
+    border: 2px solid white; 
+    margin-right: 10px; 
 }
 
 /* Chat Icon - Positioned at the bottom-right */
@@ -140,27 +140,27 @@ textarea {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #ac4800; /* Chat icon background color changed to orange */
+    background-color: #ac4800; 
     padding: 10px;
     border-radius: 50%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
-    color: white; /* Color of the chat icon */
-    z-index: 1000; /* Ensure it stays on top */
+    color: white; 
+    z-index: 1000; 
 }
 
 /* Chatbox Style - Initially Hidden */
 #chatbox {
     position: fixed;
-    bottom: 80px; /* Position it above the chat icon */
+    bottom: 80px; 
     right: 20px;
     width: 300px;
-    background-color: black; /* Chatbox background changed to black */
-    border: 1px solid #ccc; /* Light gray border */
+    background-color: black; 
+    border: 1px solid #ccc; 
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    display: none; /* Hidden by default */
+    display: none; 
     z-index: 1000;
 }
 
@@ -171,24 +171,24 @@ textarea {
     border: 1px solid #ddd;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #333; /* Chat window background color changed */
-    color: white; /* Chat text color */
+    background-color: #333; 
+    color: white; 
 }
 
 /* Input field */
 #user-input {
     width: 80%;
     padding: 8px;
-    background-color: black; /* Input background color */
-    color: white; /* Input text color */
+    background-color: black; 
+    color: white; 
 }
 
 /* Profile Picture Styles */
 .discussion-profile-pic img {
-    border-radius: 50%; /* Circular image */
-    width: 100%; /* Fill the container */
-    height: 100%; /* Fill the container */
-    object-fit: cover; /* Ensure the image covers the circle */
+    border-radius: 50%; 
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
 }
 
 .discussion-header {
@@ -215,7 +215,7 @@ textarea {
 
 .delete-comment,
 .delete-story {
-    background-color: #ff4d4d; /* Red color for delete buttons */
+    background-color: #ff4d4d; 
     color: white;
     border: none;
     padding: 5px 10px;
@@ -226,25 +226,25 @@ textarea {
 /* Back Button Styles */
 .back-button-container {
     padding: 20px;
-    background-color: black; /* Background color changed to black */
+    background-color: black; 
 }
 
 /* Back Button */
 .back-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ac4800; /* Orange color for back button */
-    color: white; /* White text color */
-    text-decoration: none; /* Remove underline from link */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
+    background-color: #ac4800; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
 }
 
 /* Back Button Hover Effect */
 .back-button:hover {
-    background-color: #d67900; /* Darker orange on hover */
+    background-color: #d67900;
 }
 
 .back-button i {
-    margin-right: 5px; /* Spacing between icon and text */
+    margin-right: 5px;
 }
