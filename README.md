@@ -5,5 +5,5 @@ https://vombiuuya1801.wixsite.com/beets
 
 Our link to the live server for our home page is:
 
-http://169.239.251.102:3341/~salome.mutemwa/indexbeets.html
+http://169.239.251.102:3341/~phiwayinkhosi.lukhele/BEETS
 You can only access the home page, sign up and sign in, and the community forum page. 
